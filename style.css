@@ -1,0 +1,84 @@
+body {
+	background-image: url("robot.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-color: rgba(0, 0, 0, 0.5);
+	background-blend-mode: overlay;
+	height: auto;
+	font-family: Oswald;
+	color: floralwhite;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: floralwhite;
+}
+
+a:hover {
+	text-decoration: none;
+	color: skyblue;
+}
+
+h2 {
+	text-align: center;
+}
+
+.container {
+	padding: 15px;
+	border-radius: 5px;
+	background: #4B79A1;
+	background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
+	background: linear-gradient(to right, #283E51, #4B79A1);
+
+}
+
+.user-box {
+	width: 100%;
+	margin-top: 15px;
+}
+
+input {
+	height: 50px;
+	width: 100%;
+	position: relative;
+	outline: none;
+	font-size: 1rem;
+	color: #707070;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	padding: 0 15px;
+}
+
+.column {
+	display: flex;
+	column-gap: 15px;
+}
+
+
+select {
+	height: 100%;
+	width: 100%;
+	outline: none;
+	border-radius: 6px;
+	border: none;
+	color: #707070;
+	font-size: 1rem;
+}
+
+.btn {
+	background-color: #3e5c76;
+	border-color: #3e5c76;
+}
+
+.btn:hover {
+	background-color: #8d99ae;
+	border-color: #8d99ae;
+}
+
+
+
+
+
+
